@@ -2,7 +2,7 @@
 	"name": "Getting Started",
 	"version": "1.0",
 	"description": "chrome extension",
-	"permissions": ["declarativeContent", "storage"],
+	"permissions": ["activeTab","declarativeContent", "storage"],
 	"background": {
 		"scripts": ["background.js"],
 		"persistent": false
